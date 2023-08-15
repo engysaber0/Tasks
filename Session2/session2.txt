@@ -1,1 +1,46 @@
+session 2
+cd Dowloads : to change dir to Downloads to get the downloaded file.
+ls : to get the files and dires in this dir.
+unzip Updated-Task-02.zip : to decompress file as its suffix is zip.
+cd Updated-Task-02 :change dir to Updated-Task-02.
+ls : files of this dir.
+cat README.md : to display the content of this file.
+ls -a : to display all files and directories even hidden.
+                                                  
+                                                   level 1
+tar -xf .level-1.tar : de compress this with tar -xf.
+cd .level-1 : to change dir to .level-1.
+ls : displays files and directories in this dir.
+                                                   
+                                                  level 2
+file level-2 : to know type of level -2 .
+mv level-2 level-2.gz : to turn level-2 to level-2.gz to decompress it.
+gunzip level-2.gz : decompress level-2.gz.
+ls : to display that it is decompressed.
+tar -xf level-2 : decompress it with tar -xf.
+ls : to display that it is decompressed and turned into dir.
+cd level-2 : change dir to level-2.
+ls level-2 : display files and directories in level-2.
+cat README.txt : to read the content of it and get hint.
+                                           
+                                                  level-3
+find . -name "level-3" :to search for level-3 and its dir.
+cd gBT5u0vLTS : change dir to it to get level-3.
+ls : to display files of it .
+file level-3 : to know type of level -3 .
+mv level-3 level-3.bz2 : to turn level-3 to level-3.bz2 to decompress it.
+bunzip2 level-3.bz2 : decompress level-3.bz2.
+ls : to display that it is decompressed.
+tar -xf level-3 : decompress it with tar -xf.
+ls : to display that it is decompressed and turned into dir.
+cd level-3 : change dir to level-3.
+ls level-3 : display files and directories in level-3.
+cat README.txt : to read the content of it and get hint.
+ls -li : to get the link .
+cat wfUKyzFeEv: to get  the target size "73 bytes"
+find . -type f -size 73c : to find the file that has this size.
+cd m7lRDpRTUJ : change dir to the target file dir.
+ls : display files and directories of this dir.
+cat  xVMvVOKNW5 : content of file and finished FINALLY .
 
+                               
