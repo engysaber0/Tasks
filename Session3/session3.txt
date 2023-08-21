@@ -1,0 +1,29 @@
+sudo useradd -m Osc (because my user name is osc) : to create a user named Osc.
+sudo passwd Osc : to set a password to the user.
+sudo groupadd osc_group:to create a group named osc_group. 
+sudo usermod -aG osc_group Osc: to add Osc to osc_group.
+sudo usermod -aG sudo Osco : to grant sudo privileges to Osc.
+su - Osc: to switch to Osc user.
+whoami: to know name of the user that i am working with.
+mkdir permission_practice:to make a directory named permission_practice.
+cd permission_practice:to change directory to permission_practice.
+touch public_file.txt:to make a file named public_file.txt.
+chmod 666 public_file.txt:to give the read and write permissions to every one.
+touch private_file.txt:to make a file named  private_file.txt. 
+chmod 600 private_file.txt:to give read and write permission to the owner only 
+touch executable_script.sh:to make a file named executable_script.sh.
+chmod 750 executable_script.sh: to give read and write and execute to owner and read and execute permissions to groups.
+ls:to list files that created.
+chown osc private_file.txt:to change owner of this file to the main user.
+sudo chgroup osc_group private_file.txt: to change group to that file to osc_group.
+sleep 1000 &:to run sleep 1000 in background.
+ps :to know its PID.
+kill 3341: to kill sleep by its PID.
+sudo apt-get install vim:to install vim package.
+vim : to run vim in foreground.
+ctrl + z : to suspend vim.
+pkill -9 vim: to kill vim by its name.
+ps: to verify that sleep and vim are killed.
+sudo -dpkg --configure -a: do this first to install the package.
+sudo apt install neofetch: to install neofetch package.
+sudo apt remove neofetch: to remove neofetch package.
